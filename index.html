@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Care Clinic | Book Appointment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">CityCare+</div>
+            <nav class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#" class="hover:text-blue-600">Services</a>
+                <a href="#" class="hover:text-blue-600">Doctors</a>
+                <a href="#" class="hover:text-blue-600">Insurance</a>
+            </nav>
+            <a href="#book" class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition">Book Now</a>
+        </div>
+    </header>
+
+    <section class="bg-blue-50 py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
+                    Compassionate Healthcare <span class="text-blue-600">Just Around the Corner.</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8">Get same-day appointments with top-rated local doctors. We accept all major insurance providers.</p>
+                <div class="flex space-x-4">
+                    <a href="#book" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-blue-700">Schedule Visit</a>
+                    <a href="tel:123456789" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50">Call Clinic</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800" alt="Clinic Interior" class="rounded-2xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-gray-900 rounded-3xl p-10 text-white flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 pr-8">
+                    <h2 class="text-3xl font-bold mb-4">Request an Appointment</h2>
+                    <p class="text-gray-400 mb-6">Fill out this quick form and our coordinator will call you within 15 minutes to confirm.</p>
+                    <ul class="space-y-3 text-sm text-blue-300">
+                        <li>✓ 24/7 Response Time</li>
+                        <li>✓ Direct Insurance Verification</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 w-full mt-8 md:mt-0">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Full Name" class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500">
+                        <input type="tel" placeholder="Phone Number" class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500">
+                        <select class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 text-gray-400">
+                            <option>Select Service</option>
+                            <option>General Checkup</option>
+                            <option>Pediatrics</option>
+                            <option>Dental</option>
+                        </select>
+                        <button class="w-full bg-blue-500 py-3 rounded font-bold text-white hover:bg-blue-600 transition">Confirm Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-100 py-10 border-t">
+        <div class="container mx-auto px-6 text-center text-gray-500">
+            <p>&copy; 2026 CityCare+ Local Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
